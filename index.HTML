@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Create User</h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <lable for="first name" name="firstname">First Name</lable>
+                    <input id="txtFirstName" type="text" name="firstname" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="Adrress" name="Adrress">Address</lable>
+                    <input id="txtAddress" type="text" name="Address" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="Zip-Code" name="Zip-Code">Zip-Code</lable>
+                   
+                    <input id="txtZip" type="text" name="zip" />
+                    <small>Error Message</small>
+                </div>
+               <div class="form-control">
+                <label for="state" name="state" >State:<select id="state">
+                    <option  value="Select">State</option>
+                    <option value="UP">UP</option>
+                    <option value="BIHAR">BIHAR</option>
+                    <option value="JHARKHAND">JHARKHAND</option>
+                </select></label>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="username" name="username">User Name (6-8)charachters</lable>
+                    <input id="txtUserName" type="text" name="username" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="email" name="email">Email</lable>
+                    <input id="txtEmail" type="email" name="email" />
+                    <small>Error Message</small>
+                </div>
+              
+               
+                <div class="form-control">
+                    <button>Check Form</button>
+                </div>
+            </form>
+        </div>
+        <script src="form.js"></script>
+    </body>
+</html>
